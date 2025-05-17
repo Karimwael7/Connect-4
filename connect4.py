@@ -301,10 +301,6 @@ def credits_page():
         screen.blit(font.render('CREDITS',True,'white'), (260,80))
         screen.blit(font.render('Made by:',True,'white'), (10,150))
         screen.blit(font.render('Karim Wael',True,'white'), (100,200))
-        screen.blit(font.render('Hana Hashish',True,'white'), (100,250))
-        screen.blit(font.render('Joudy El Bakry',True,'white'), (100,300))
-        screen.blit(font.render('Salma El-Sisi',True,'white'), (100,350))
-        screen.blit(font.render('Hya Mohamed',True,'white'), (100,400))
         
         back_button = pygame.draw.rect(screen, ORANGE, (275, 600, 150, 50),0, 30)
         screen.blit(font.render('Back',True,'black'), (300,595))
